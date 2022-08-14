@@ -20,10 +20,10 @@ for key in keys:
             if file.stem.startswith(key):
                 if file.stem.endswith("_Eng"):
                     df_eng = pd.read_csv(file, sep="\t")
-                    df_eng.to_excel(writer, sheet_name="Test_Eng", index=False)
+                    df_eng.to_excel(writer, sheet_name="Test_Eng", startrow=7, index=False)
                 if file.stem.endswith("_Math"):
                     df_math = pd.read_csv(file, sep="\t")
-                    df_math.to_excel(writer, sheet_name="Test_Math", index=False)
+                    df_math.to_excel(writer, sheet_name="Test_Math", startrow=7, index=False)
         # Pandas can only export to xls, xlsx
         # To export to xlsm, we need to inject a template vbaProject.bin using xlsxwriter
         workbook = writer.book
