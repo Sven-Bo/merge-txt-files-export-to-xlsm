@@ -2,10 +2,10 @@
 This solution merges matching txt files from a given input folder and saves the result in an Excel file (macro enabled)
 
 ## Problem Statement
-![Problem](/problemstatement_1.jpg?raw=true "Problem")
-![Problem](/problemstatement_2.jpg?raw=true "Problem")
-![Problem](/problemstatement_3.jpg?raw=true "Problem")
-![Problem](/problemstatement_4.jpg?raw=true "Problem")
+![Problem](/Problemstatement_1.jpg?raw=true "Problem")
+![Problem](/Problemstatement_2.jpg?raw=true "Problem")
+![Problem](/Problemstatement_3.jpg?raw=true "Problem")
+![Problem](/Problemstatement_4.jpg?raw=true "Problem")
 
 ## Requirements
 Install the dependencies with pip
