@@ -10,8 +10,8 @@ This solution merges matching txt files from a given input folder and saves the 
 ## Requirements
 Install the dependencies with pip
 ```console
-pip install pandas
-pip install xlsxwriter
+pandas==1.3.5
+xlwings==0.27.12
 ```
 
 ## About Me
