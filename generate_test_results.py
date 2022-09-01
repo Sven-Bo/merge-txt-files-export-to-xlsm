@@ -15,9 +15,13 @@ excel_template = current_dir / "Test_template.xlsm"
 # The 'key' of 'Student_Class1A_23224_Eng.txt' is 'Student_Class1A_23224'
 keys = set("_".join(file.stem.split("_")[:3]) for file in files)
 
+# Open the Excel instance in the background
 with xw.App(visible=False) as app:
+    # For each key open the Excel template file
     for key in keys:
         wb = app.books.open(excel_template)
+        # Iterate over the txt-files in the input dir
+        # If the file name matches with the key, insert the content in the Excel template
         for file in files:
             if file.stem.startswith(key):
                 if file.stem.endswith("_Eng"):
