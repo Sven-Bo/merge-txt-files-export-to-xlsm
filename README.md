@@ -1,5 +1,5 @@
-# Merge & Save txt files to xlsm files
-This solution merges matching txt files from a given input folder and saves the result in an Excel file (macro enabled)
+# Convert the content from multiple TXT or CSV files into Excel using Python (Real-World Example)
+Learn how to save time, get organised and reduce errors by using Python scripts for importing data from TXT or CSV files straight into Excel. This tutorial will show you a real-world example of importing data from a TXT file into Microsoft Excel.
 
 ## Problem Statement
 ![Problem](./images/Problemstatement_1.jpg?raw=true "Problem")
